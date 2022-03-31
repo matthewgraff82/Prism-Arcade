@@ -1,0 +1,19 @@
+.faq-container {
+  &__phase {
+    background: #040707;
+    border: 6px solid #ffffff;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+  }
+  &__phase-text {
+    font-family: "Good Times";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+  }
+}

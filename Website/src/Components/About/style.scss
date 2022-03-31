@@ -1,0 +1,16 @@
+.about-section {
+  position: relative;
+  p {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #ffffff;
+    padding-left: 100px;
+    margin-bottom: 30px;
+  }
+  &__bold {
+    font-weight: bolder;
+  }
+}

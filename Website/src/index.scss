@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Good Times";
+  src: url(./assets/fonts/good-times-rg.otf);
+}
+
+body {
+  font-family: Good Times;
+  background-color: #040707 !important;
+  color: #fff !important;
+}
+
+.section-layout {
+  margin-bottom: 160px;
+}

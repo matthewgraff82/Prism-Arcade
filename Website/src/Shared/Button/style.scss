@@ -1,0 +1,41 @@
+.custom-btn {
+  width: 176px;
+  height: 42px;
+  font-family: "Montserrat", sans-serif;
+  clip-path: polygon(90% 0, 100% 100%, 10% 100%, 0 0);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.custom-btn-primary {
+  background: linear-gradient(180deg, #c94097 0%, #2a123e 100%);
+}
+.custom-btn-secondary {
+  background-color: transparent;
+  color: #c94097;
+  clip-path: none !important;
+  position: relative;
+  &:hover {
+    color: #c94097;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/images/btn-curv.svg");
+  }
+}
