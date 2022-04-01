@@ -7,7 +7,7 @@ import "./style.scss";
 const HeroSection = () => {
   return (
     <div className="hero-section">
-      <Row className="align-items-center">
+      <Row className="align-items-center hero-section__container ">
         <Col className="hero-section__content" md={6}>
           <h1>the prism arcade</h1>
           <p>

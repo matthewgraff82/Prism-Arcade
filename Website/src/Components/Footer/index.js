@@ -9,7 +9,7 @@ import "./style.scss";
 const Footer = () => {
   return (
     <footer className=" footer-container">
-      <Row className="justify-content-center">
+      <Row className="justify-content-center footer-container__list-container">
         <Col>
           <ul className="fotter-container__list">
             <li>

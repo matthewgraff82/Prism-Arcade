@@ -12,7 +12,7 @@ const NavbarComponent = () => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
-        <Nav style={{ maxHeight: "100px", marginLeft: "auto" }} navbarScroll>
+        <Nav style={{ marginLeft: "auto" }}>
           <Nav.Link href="#action1">About Prism</Nav.Link>
           <Nav.Link href="#action2">NFTs</Nav.Link>
           <Nav.Link href="#action2">Roadmap</Nav.Link>

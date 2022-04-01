@@ -6,4 +6,9 @@
   line-height: 72px;
   color: #ffffff;
   margin-bottom: 60px;
+  @media only screen and (max-width: 768px) {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
 }

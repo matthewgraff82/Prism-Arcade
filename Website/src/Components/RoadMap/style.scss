@@ -14,6 +14,9 @@
     padding-right: 20px;
     margin-bottom: 30px;
     margin-left: 100px;
+    @media only screen and (max-width: 768px) {
+      margin-left: 0px;
+    }
   }
   &__phase-text {
     font-family: "Good Times";
@@ -29,5 +32,8 @@
     width: 100%;
     height: 100%;
     background: url("../../assets/images/bar.svg") no-repeat;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }

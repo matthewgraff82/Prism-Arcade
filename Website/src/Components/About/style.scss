@@ -9,8 +9,29 @@
     color: #ffffff;
     padding-left: 100px;
     margin-bottom: 30px;
+    @media only screen and (max-width: 768px) {
+      padding-left: 0px;
+      text-align: center;
+    }
   }
   &__bold {
     font-weight: bolder;
+  }
+  img {
+    @media only screen and (max-width: 768px) {
+      width: 138px;
+    }
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -24%;
+    width: 100%;
+    height: 100%;
+    background: url("../../assets/images/shadow1.svg") no-repeat;
+    @media only screen and (max-width: 768px) {
+      display: none;
+    }
   }
 }

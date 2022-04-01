@@ -15,8 +15,16 @@ body {
   font-family: Good Times;
   background-color: #040707 !important;
   color: #fff !important;
+  overflow-x: hidden;
+}
+
+.App {
+  overflow: hidden;
 }
 
 .section-layout {
   margin-bottom: 160px;
+  @media only screen and (max-width: 768px) {
+    margin-bottom: 120px;
+  }
 }
